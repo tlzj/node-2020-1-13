@@ -50,3 +50,5 @@
 
 // nodejs进程创建 (有多种创建进程的方法，如child_process模块和cluster模块)
 // cpu核心数获取方式: const cpus = require('os).cpus();
+// child_process 模块还是 cluster 模块，为了解决 Node.js 实例单线程运行，无法利用多核 CPU 的问题而出现的
+// IPC: Inter-Process Communication,即进程间通信
